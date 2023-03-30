@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+	<title> CONTACTOS </title>
+</head>
+<body>
+      <div id="franja"></div>
+	   <header>
+ 	      <img src="imagenes/fondo.jpg" align="center">
+      </header>
+
+     <nav>
+        <ul>
+          	<li><img src="imagenes/icono1.png" align="top"><P>
+              	<a href="inicio.html"> LA LIGA </a>
+            </li>
+          	<li><img src="imagenes/icono2.png" align="top"><p>
+              	<a href="pl.html"> PREMIER LEAGUE </a>
+            </li>
+          	<li><img src="imagenes/icono3.png" align="top"><p>
+              	<a href="seriea.html"> SERIE A </a>
+            </li>
+            <li><img src="imagenes/icono4.png" align="top"><p>
+              	<a href="bundes.html"> BUNDESLIGA </a>
+            </li>
+          	<li><img src="imagenes/icono5.png" align="top"><p>
+              	<a href="ligue1.html"> LIGUE 1 </a>
+            </li>  	
+            <li><img src="imagenes/icono6.png" align="top"><p>
+               CONTACTO 
+            </li>
+        </ul>
+     </nav>
+
+     <section id="contenido2">
+    <div id="titulo">
+         <h2>Contacto</h2>
+    </div>
+    <div id="formulario">
+    <form action="enviar.php" method="post">
+     <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre" size="38" placeholder="Su nombre"title="Escriba su nombre para poder referirnos a usted correctamente."autofocus autocomplete><br>
+            Apellido: <input type="text" name="apellido" size="38" placeholder="Su apellido"autofocus autocomplete><br>
+            Correo electrónico: <input type="email" name="mail" size="28" title="Escriba su correo electrónico para poder comunicarnos con usted lo antes posible." placeholder="nombre@servidor.com"required autocomplete><br>
+            Selecciona tu edad:  
+            <input type="number" name="edad" value="20" min="15" max="100" step="50">
+         </fieldset>
+
+         <fieldset>
+            <legend>¿Qué te interesa saber?</legend>
+            Selecciona tus liga favorita:<br>
+            <input type="radio" name="liga" value="laliga"/> La liga
+            <input type="radio" name="liga" value="premierleague"/> Premier League
+            <input type="radio" name="liga" value="seriea"/> Serie A
+            <input type="radio" name="liga" value="bundesliga"/> Bundesliga<p>
+            <input type="radio" name="liga" value="Ligue1"/> Ligue 1<p>  
+            Algún comentario para mejorar la web?:<br>
+            <textarea name="comentarios"></textarea><p>   
+            
+         </fieldset>
+         <input id="boton_enviar" type="submit" value="Enviar">
+
+
+      </form>
+   </div>   
+
+      <div id="mapa">
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1102.7817078187688!2d-76.60601918351077!3d2.4442999623041484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30030fd2997ea1%3A0x5ddd727ddf4a0799!2sColegio%20Mayor%20del%20Cauca%20-%20Edificio%20Bicentenario!5e0!3m2!1ses-419!2sco!4v1679382004563!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </div>
+   <div id="tapa">
+      <b>Todo sobre futbol</b>
+         Colegio Mayor del Cauca.
+         Colombia<p>
+         Celular: 3223456543<br>
+         e-mail: TodoSobrefutbol@gmail.com<br>
+         web:www.todosobrefutbol.com<br>
+
+      <div id="reducir">
+          Ver mapa
+      </div>
+ </div>
+
+   </section>
+
+
+     <div id="franja_final"></div>
+     <footer>
+       <h5>
+          &copy;2023. Todo Sobre Futbol<br>
+       </h5>
+   </footer>
+
+</body>
+</html>
